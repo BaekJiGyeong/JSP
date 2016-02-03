@@ -13,10 +13,11 @@ table, th, td {
 	border: 1px solid black;
 	/*border-collapse: collapse;*/
 	border-spacing: 15px;
+	
 }
 
 th, td {
-	padding: 15px;
+	padding: 25px;
 }
 th {
     text-align: right;
@@ -29,6 +30,7 @@ table#t01 {
 table#t01 th {
 	background-color: black;
 	color: white;
+	valign : bottem;
 }
 
 table#t01 td {

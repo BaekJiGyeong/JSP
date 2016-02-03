@@ -13,13 +13,14 @@ table, th, td {
 	border: 1px solid black;
 	/*border-collapse: collapse;*/
 	border-spacing: 15px;
+	cellpadding : 10px;
 }
 
 th, td {
 	padding: 15px;
 }
 th {
-    text-align: right;
+    text-align: bottom;
 }
 table#t01 {
     width: 100%;    
@@ -29,6 +30,10 @@ table#t01 {
 table#t01 th {
 	background-color: black;
 	color: white;
+	valign : bottem;
+}
+table#t02 {
+top : 20px;
 }
 
 table#t01 td {
@@ -42,10 +47,10 @@ table#t01 td {
 </head>
 <body>
 
-	<table>
+	<table id= "t02" >
 		<caption>4조 명단</caption>
 		<tr>
-			<th>순번</th>
+			<th>순서</th>
 			<th>이름</th>
 		</tr>
 		<%

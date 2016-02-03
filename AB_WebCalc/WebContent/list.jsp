@@ -4,7 +4,7 @@
 <%@page import="java.util.List"%>
 <%@page import="com.ktds.jgbaek.DramaVO"%>  
 
- <% // body에 적어야 되는 정보는 밖에 적도록하자
+<% // body에 적어야 되는 정보는 밖에 적도록하자
   	List<String> news = new ArrayList <String>();
   	news.add("MBC 납량특집 드라마 M");
   	news.add("MBC 납량특집 드라마 거미");
