@@ -1,0 +1,106 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+<style>
+span.note {
+	font-size: 150%;
+	color: red;
+}
+
+div.cities {
+	background-color: black;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+	width: 500px;
+}
+
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+</style>
+</head>
+
+<body align="center">
+	<br />
+	<h1>
+		My <span class="note">Important Site</span> List
+	</h1>
+	<p>
+		<span style="color: #669900; font-size: 150%; font-weight: bold">W3School</span>로
+		이동하고 싶으면 <a href="http://www.w3schools.com//">여기</a>를 클릭하세요
+	</p>
+	<p>
+		<span style="color: #ff471a; font-size: 150%; font-weight: bold">티스토리</span>로
+		이동하고 싶으면 <a href="http://javannspring.tistory.com/">여기</a>를 클릭하세요.
+	</p>
+	<a href="http://www.naver.com"><img
+		src="http://img.naver.net/static/www/u/2010/0611/nmms_215646753.gif"></a>
+
+	<p>
+		<a href="#C4">Jump to Chapter 4</a>
+	</p>
+	<h2 id="C4">Chapter 4</h2>
+
+	<div class="cities">
+		<h2>London</h2>
+		<p>London is the capital city of England. It is the most populous
+			city in the United Kingdom, with a metropolitan area of over 13
+			million inhabitants.</p>
+
+		<p>Standing on the River Thames, London has been a major
+			settlement for two millennia, its history going back to its founding
+			by the Romans, who named it Londinium.</p>
+	</div>
+
+	<div class="cities">
+		<h2>Tokyo</h2>
+		<p>Tokyo is the capital of Japan, the center of the Greater Tokyo
+			Area, and the most populous metropolitan area in the world.</p>
+
+		<p>It is the seat of the Japanese government and the Imperial
+			Palace, and the home of the Japanese Imperial Family.</p>
+
+		<p>The Tokyo prefecture is part of the world's most populous
+			metropolitan area with 38 million people and the world's largest
+			urban economy.</p>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

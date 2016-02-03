@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+<style>
+align ="center"
+span.note {font-size:120%; color:red;}
+
+</style>
+</head>
+<body>
+
+	<p><a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a></p>
+
+	<h1 > My <span class="note">Important</span>Heading</h1>
+	<p>This is some <span class = "note">important</span>text.</p>
+</body>
+</html>

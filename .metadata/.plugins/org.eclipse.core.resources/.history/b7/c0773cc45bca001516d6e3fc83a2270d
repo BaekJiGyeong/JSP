@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+<style>
+span.note {font-size:150%; color:red;}
+
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
+</style>
+</head>
+
+<body align ="center">
+	<br/>
+	<h1> My <span class="note">Important Site</span> List</h1>
+	<p> <span style="color:green; font-size: 150%; font-weight:bold">W3School</span>로 이동하고 싶으면 <a href="http://www.w3schools.com//">여기</a>를 클릭하세요</p>
+	<p> <span style="color:#ff471a; font-size: 150%; font-weight:bold">티스토리</span>로 이동하고 싶으면 <a href="http://javannspring.tistory.com/">여기</a>를 클릭하세요.</p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
