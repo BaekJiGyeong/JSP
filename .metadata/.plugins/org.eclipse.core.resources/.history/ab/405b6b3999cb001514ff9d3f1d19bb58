@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+span.note {
+	font-size: 30px;
+	color: #331900;
+	font-weight: bold;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+</style>
+</head>
+<body align="center" style="background-color: yellow;">
+
+	<img
+		src="https://lh5.ggpht.com/yVfPv-yLjIuBjpKj41NLkLXmuVv8XzH0m2hf-_sz9lQDv9WB9SX0McB8Jn4bQe4w5Q=w300">
+
+	<form method="post" action="/AEA_Lesson0204/resultpage" id="kakao">
+		<fieldset>
+			<legend></legend>
+			<span class="note">이름<br> <input type="text"
+				name="userid"><br> <br> 비밀번호<br> <input
+				type="password" name="userpsw"><br> <br> 성별<br>
+				<input type="radio" name="gender" value="male" checked> 남자 <input
+				type="radio" name="gender" value="female"> 여자<br> <br>
+				생일<br> <input type="date" name="bday">
+				<br> <br> <span class="note">사는곳</span> <br>	
+					<select name="live">
+						<option value="seoul">서울</option>
+						<option value="others">그밖에지역</option>
+				</select><br> <br>
+				<span class="note">E-Mail<br> <input type="email"
+					name="email"> <br> <br> 좋아하는 색<br> <input
+					type="color" name="favcolor" value="#ff0000"><br> <br>
+					<span class="note">자기소개</span><br> <br> <textarea
+						name="message" rows="10" cols="30">안녕하세요</textarea><br> <input
+					type="checkbox" name="vehicle1" value="Bike">I have a bike
+					<br> <input type="checkbox" name="vehicle2" value="Car">I
+					have a car <br> <br>
+
+				 <br> <br>
+					<br> <input type="submit" value="제출"
+					onclick="alert('등록완료!')">
+		</fieldset>
+	</form>
+	<div id="footer">Copyright JiGyeong.com</div>
+
+</body>
+</html>

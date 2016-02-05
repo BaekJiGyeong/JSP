@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form method="post" action="/AEA_Lesson0204/resultpage">
+		<fieldset>
+			<legend>Personal information:</legend>
+			First name:<br> <input type="text" name="firstname"> <br>
+			Last name:<br> <input type="text" name="lastname"> <br>
+
+			<br> <input type="radio" name="gender" value="male" checked>
+			Male<br> <input type="radio" name="gender" value="female">
+			Female<br> <input type="radio" name="gender" value="other">
+
+			<select name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+			</select><br>
+
+
+			<br><textarea name="message" rows="10" cols="30">
+				The cat was playing in the garden.
+			</textarea>
+			
+			
+			<br> <br> Other <br> <input type="submit"value="Submit">
+
+
+
+		</fieldset>
+	</form>
+
+</body>
+</html>

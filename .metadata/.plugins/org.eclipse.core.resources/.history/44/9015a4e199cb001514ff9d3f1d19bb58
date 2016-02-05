@@ -1,0 +1,61 @@
+package com.ktds.jgbaek;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class Result
+ */
+public class Result extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public Result() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		this.doPost(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String userid = request.getParameter("userid"); // parameter는 값에 상관없이 string이다.
+		String userpsw = request.getParameter("userpsw");
+		String gender = request.getParameter("gender");
+		String email = request.getParameter("email");
+		String favcolor = request.getParameter("favcolor");
+		String vehicle1 = request.getParameter("vehicle1");
+		String live = request.getParameter("live");
+		
+		
+		
+		
+		RequestDispatcher rd = request.getRequestDispatcher("/result.jsp");
+		request.setAttribute("userid", userid);
+		request.setAttribute("userpsw", userpsw);
+		request.setAttribute("gender", gender);
+		request.setAttribute("email", email);
+		request.setAttribute("favcolor", favcolor);
+		request.setAttribute("vehicle1", vehicle1);
+		request.setAttribute("live", live);
+		
+		rd.forward(request, response);		
+	}
+
+}

@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style>
+span.note {
+	font-size: 30px;
+	color: #331900;
+	font-weight: bold;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+</style>
+</head>
+<body align="center" style="background-color: yellow;">
+	<br>
+	<img
+		src="https://lh5.ggpht.com/yVfPv-yLjIuBjpKj41NLkLXmuVv8XzH0m2hf-_sz9lQDv9WB9SX0McB8Jn4bQe4w5Q=w300">
+	<span class="note"><br /> 이름 ${userid}<br /> 비밀번호 ${user}<br>
+		사는곳 ${live} </span>
+
+
+	<div id="footer">Copyright JiGyeong.com</div>
+
+</body>
+</html>

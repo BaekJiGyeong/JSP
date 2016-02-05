@@ -1,0 +1,22 @@
+package com.ktds.jgbaek;
+
+public class UserVO {
+	
+	private String userid;
+	private String userpsw;
+	private String gender;
+	private String live;
+	private String email;
+	private String favcolor;
+	private String message;
+	private String vehicle1;
+	private String vehicle2;
+	
+	
+	public UserVO(int articleNumber, String articleName, int hitCount) {
+		this.articleNumber = articleNumber;
+		this.articleName = articleName;
+		this.hitCount = hitCount;
+	}
+
+}

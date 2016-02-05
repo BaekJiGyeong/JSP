@@ -56,7 +56,7 @@ a:active {
 </style>
 </head>
 
-<body align="center">
+<body align="center" >
 	<br />
 	<h1 id="H">
 		My <span class="note">Important Site</span> List
