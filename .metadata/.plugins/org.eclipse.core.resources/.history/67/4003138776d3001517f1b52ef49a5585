@@ -47,7 +47,7 @@ public class UserMatch extends HttpServlet {
 			}
 		}	
 				
-		request.setAttribute("userVO", uservo);
+		request.setAttribute("uservo", uservo);
 		
 		RequestDispatcher rd = request.getRequestDispatcher("/result.jsp");
 		rd.forward(request, response);				
